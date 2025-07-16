@@ -1,4 +1,4 @@
-# Final 🚀 Project (Backend)
+# Final 🚀 Project (Frontend)
 ### Sprints 21 y 22 - 🚀 Project Break 3
 Este es el último 🚀 Project Break del [Bootcamp: Desarrollo Web (Full Stack)](https://thebridge.tech/bootcamps/desarrollo-web-full-stack/?campus=Online). Para realizar este project, se nos ha dado la siguiente información:
 > Utilizaremos todos los conocimientos previos para afrontar el Project Break 3.
