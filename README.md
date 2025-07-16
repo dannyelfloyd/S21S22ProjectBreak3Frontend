@@ -23,5 +23,7 @@ Este es el último 🚀 Project Break del [Bootcamp: Desarrollo Web (Full Stack)
 >
 >¡Ánimo Fullstackers!
 
-*A continuación se mostrara información sobre el **Frontend**. Si quieres conocer más sobre el [**Backend**](https://github.com/dannyelfloyd/S21S22ProjectBreak3Backend), haz click para ser redireccionado al repositorio correspondiente.*
+Este Project lo realizaremos en pareja entre [Karine](https://github.com/karine0207) y [Daniel](https://github.com/dannyelfloyd) para una futura empresa que se dedicará a la organización y gestión de eventos. Por motivos de privacidad con nuestro futuro cliente, este project será una versión Beta con nombres, logos y imagenes ficticias. Servirá como base de la futura web que se desarrollada y lanzada más adelante.
+
+*A continuación se mostrara información sobre el **Frontend**. Si quieres conocer más sobre el [**Backend**](https://github.com/dannyelfloyd/S21S22ProjectBreak3Backend), haz click sobre el para ser redireccionado al repositorio correspondiente.*
 ## Frontend
