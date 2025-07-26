@@ -29,3 +29,11 @@ Hemos tenido en cuenta las instrucciones que se nos han dado para este proyecto 
 
 *A continuación se mostrara información sobre el **Frontend**. Si quieres conocer más sobre el [**Backend**](https://github.com/dannyelfloyd/S21S22ProjectBreak3Backend), haz click sobre el para ser redireccionado al repositorio correspondiente.*
 ## Frontend
+1) npm create vite@latest .
+1.1) Select a framework: React
+1.2) Select a variant: JavaScript
+1.3) npm install
+1.4) npm run dev
+1.5) npm i react-router
+1.6) npm i react-hot-toast
+
