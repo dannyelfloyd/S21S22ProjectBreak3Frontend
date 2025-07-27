@@ -4,7 +4,7 @@ import RateLimitedUI from '../components/RateLimitedUI.jsx';
 import api from '../lib/axios.js'
 import toast from 'react-hot-toast';
 import NoteCard from "../components/NoteCard.jsx";
-import api from '../lib/axios.js';
+import NotesNotFound from "../components/NotesNotFound.jsx";
 
 const NotesPage = () => {
     const [isRateLimited, setIsRateLimited] = useState(false);
