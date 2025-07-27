@@ -29,6 +29,7 @@ Hemos tenido en cuenta las instrucciones que se nos han dado para este proyecto 
 
 *A continuación se mostrara información sobre el **Frontend**. Si quieres conocer más sobre el [**Backend**](https://github.com/dannyelfloyd/S21S22ProjectBreak3Backend), haz click sobre el para ser redireccionado al repositorio correspondiente.*
 ## Frontend
+REACT SET UP
 1) npm create vite@latest .
 1.1) Select a framework: React
 1.2) Select a variant: JavaScript
@@ -36,4 +37,8 @@ Hemos tenido en cuenta las instrucciones que se nos han dado para este proyecto 
 1.4) npm run dev
 1.5) npm i react-router
 1.6) npm i react-hot-toast
-
+2) TailwindCSS 
+2.1)nppm install -D tailwindcss@3 postcss autoprefixer
+2.2) npx tailwindcss init -p
+3) DaisyUI
+3.1) npm i daisyui@4.12.24 -D

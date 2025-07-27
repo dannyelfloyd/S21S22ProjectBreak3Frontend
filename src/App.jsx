@@ -5,7 +5,8 @@ import NotesDetail from './pages/NotesDetail'
 
 const App = () => {
   return (
-    <div>
+    <div data-theme="forest">
+      <button className='btn btn-primary'>Click</button>
       <Routes>
         <Route path='/' element={<NotesPage />} />
         <Route path='/create' element={<NotesCreated />} />
