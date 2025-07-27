@@ -6,23 +6,22 @@ import toast from 'react-hot-toast'
 
 
 
-const NoteCard = ({note,setNotes}) => {
+const NoteCard = ({note, setNotes}) => {
 
-  const handleDelete = async (e,id) => {
-    e.preventDedaul();
+  const handleDelete = async (e, id) => {
+        e.preventDefault();
 
-    if(!window.confirm('Are you sure you want to delete this note?')) return;
+        if(!window.confirm('¿Esta segura de que quieres borrar esta idea?')) return;
 
-    try {
-      await api.delete(`/notes/${id}`)
-      setNotes((prev) => prev.filter(note => note._id !== id))
-      toast.success('Note deleted successfully')
-    }catch (error) {
-      console.log('Error in handleDelete', error);
-      toast.error('Fail to delete note')
-    }
-
-  };
+        try {
+            await api.delete(`/notes/${id}`)
+            setNotes((prev) => prev.filter(note => note._id !== id))
+            toast.success('Idea borrada con exito')
+        } catch (error) {
+            console.log('Error in handleDelete', error);
+            toast.error('Fallo al eliminar la idea')
+        }
+    };
   return (
     <Link to={`/note/${note._id}`} className="card bg-base-100 hover:shadow-lg transition-all duration-200 border-t-4 border-solid border-[#00FF9D]">
       <div className='card-body'>
