@@ -42,3 +42,9 @@ REACT SET UP
 2.2) npx tailwindcss init -p
 3) DaisyUI
 3.1) npm i daisyui@4.12.24 -D
+
+PAGES: NotesPage.jsx
+1) Terminal: 
+>> npm i lucide-react
+>> npm i axios
+>> IN BACKEND: npm i cors
