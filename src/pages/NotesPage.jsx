@@ -11,7 +11,7 @@ const NotesPage = () => {
     const [notes, setNotes] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    useEffect(()=>{
+    useEffect(() => {
         const fetchNotes = async () => {
             try {
                 const  res = await api.get("/notes");
@@ -44,11 +44,9 @@ const NotesPage = () => {
 
             {notes.length > 0 && !isRateLimited && (
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                    {notes.map((note) => {
-                        <div>
-                            <NoteCard key={note._id} note={note} setNotes={setNotes} />
-                        </div>
-                    })}
+                    {notes.map((note) => (
+                        <NoteCard key={note._id} note={note} setNotes={setNotes} />
+                    ))}
                 </div>
             )}
 

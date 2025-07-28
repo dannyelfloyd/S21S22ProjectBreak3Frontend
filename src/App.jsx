@@ -1,7 +1,8 @@
-import {Route, Routes} from 'react-router'
-import NotesPage from './pages/NotesPage'
-import NotesCreated from './pages/NotesCreated'
-import NotesDetail from './pages/NotesDetail'
+import {Route, Routes} from 'react-router';
+
+import NotesPage from './pages/NotesPage';
+import NotesCreated from './pages/NotesCreated';
+import NotesDetail from './pages/NotesDetail';
 
 const App = () => {
   return (

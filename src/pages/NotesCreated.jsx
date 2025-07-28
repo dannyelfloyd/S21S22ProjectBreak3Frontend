@@ -1,12 +1,12 @@
-import {  ArrowLeftIcon, Icon } from 'lucide-react';
+import { ArrowLeftIcon } from 'lucide-react';
 import { useState } from 'react';
-import toast from 'react';
+import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router';
 import api from '../lib/axios';
 
 const NotesCreated = () => {
-  const [title,setTitle] = useState('')
-  const [content,setContent] = useState('')
+  const [title, setTitle] = useState('')
+  const [content, setContent] = useState('')
   const [loading, setLoading] = useState(false)
 
   const navigate = useNavigate()
@@ -15,7 +15,7 @@ const NotesCreated = () => {
         e.preventDefault();
 
         if (!title.trim() || !content.trim()) {
-            toast.error('All fields are required');
+            toast.error('Todos los campos son obligatorios');
             return;
         }
 
@@ -25,15 +25,14 @@ const NotesCreated = () => {
                 title,
                 content
             })
-            toast.success('Note created successfully!');
+            toast.success('Idea creada con exito');
             navigate('/')
         } catch (error) {
             console.log('Error creating note', error);
-            toast.error('Error al crear la Idea');
             if (error.response.status === 429) {
                 toast.error('Acción bloqueada. Estas creando demasiadas notas a la vez', {
                 duration: 4000,
-                Icon: '☠️',
+                icon: '☠️',
                 });
             }else {
                 toast.error('Error al crear la idea');
